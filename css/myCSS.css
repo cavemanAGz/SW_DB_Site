@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 6, 2017, 12:24:55 PM
+    Author     : CavemanAGz
+*/
+
+@font-face {
+    font-family: "StarWarsFont";
+    src: local(StarWarsFont), url('../fonts/DISTGRG_.ttf')
+}
+.jumbotron {
+    background-color: #000000;
+    color: #f4d941;
+    font-family: StarWarsFont;
+    font-size: 32px;
+    opacity: .7
+}
+    
+.body {
+    background-color: #000000;
+    background-image: url("../images/bg2.jpg");
+    background-position:center;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #000000;
+    color: #f4d941;
+    z-index: 9999;
+    border: 0;
+    font-family: StarWarsFont;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+}
+
+.container1 {
+    background-color: #f9eaea;
+}
+
+/*This style form: https://bootsnipp.com/snippets/featured/striped-table-30*/
+.custab {
+    border: 1px solid #3d3d3d;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+
+/*This style form: https://bootsnipp.com/snippets/featured/striped-table-30*/
+.custab:hover {
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
+
+/*Makes the table header black and text yellow to match theme*/
+.tableH {
+    background-color: black;
+    color: #f4d941;
+    opacity: .84;
+}
+
+/* THis controls one strip color of table background*/
+.table {
+    background-color: #413f3f;
+    margin: 1%;
+}
+
+/* THis controls the other strip color of table background, found at:
+* https://stackoverflow.com/questions/20825211/bootstrap-table-striped-how-do-i-change-the-stripe-background-colour */
+.table-striped > tbody > tr:nth-child(2n+1) > td,
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: gray
+}
+
+/******************************************************************************************** 
+ BEGIN THis controls the other strip color of table background, found at:
+* https://stackoverflow.com/questions/18422223/bootstrap-3-modal-vertical-position-center */
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/******************************************************************************************** 
+ END THis controls the other strip color of table background, found at:
+* https://stackoverflow.com/questions/18422223/bootstrap-3-modal-vertical-position-center */
+
+.tBorder {
+    opacity: .99;
+    color: #f4d941;
+    font-family: StarWarsFont;
+}
